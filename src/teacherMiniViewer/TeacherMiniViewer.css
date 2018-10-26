@@ -1,0 +1,16 @@
+.teacher-mini-viewer {
+    width: 240px;
+    margin-bottom: 56px;
+}
+
+.teacher-avatar{
+    border-radius: 50%;
+    height: 72px;
+    width: 72px;
+}
+
+.teacher-full-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,12 @@
+.teacherBg {
+    padding: 100px;
+}
+.teacherText {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 36px;
+}
+.teacherLogo {
+    width: 8%;
+}

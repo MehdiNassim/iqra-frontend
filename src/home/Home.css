@@ -1,0 +1,12 @@
+.homeBg {
+  padding: 120px;
+}
+.homeText {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 36px;
+}
+.homeLogo {
+  width: 8%;
+}

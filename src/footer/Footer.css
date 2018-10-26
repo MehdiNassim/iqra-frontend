@@ -1,0 +1,16 @@
+.footerBg {
+  background-color: #20232a;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+.footerLogo {
+  height: 60px;
+  padding: 10px;
+  vertical-align: middle;
+}
+.footerText {
+  font-size: 18px;
+  color: white;
+  font-weight: 200;
+}
