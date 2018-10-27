@@ -8,8 +8,8 @@ const Logo = props => {
   const { classToolbar, appName } = props;
   return (
     <div className={`${classToolbar} logo-container`}>
-      <img className="logo-img" src={logo} alt={appName} />
-      <h3 className="logo-text">{appName}</h3>
+      {/*<img className="logo-img" src={logo} alt={appName} />*/}
+      <h3 className="logo-text">{appName}a  <bdi>إقرأ</bdi></h3>
     </div>
   );
 };

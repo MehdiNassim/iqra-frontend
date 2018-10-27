@@ -17,7 +17,7 @@ import Logo from '../logo/Logo';
 
 // TODO: Color only the selected one
 
-const drawerWidth = 240;
+const drawerWidth = 304;
 
 const menuOptions = [
   { title: 'Home', icon: <HomeIcon />, link: './Teacher' },
@@ -63,8 +63,8 @@ const RightDrawer = props => {
       <TeacherMiniViewer teacher={teacher} />
       <List>
         {menuOptions.map(option => (
-          <Link className="link" to={option.link}>
-            <ListItem href={option.link} button key={option.title}>
+          <Link className="link" to={option.link} key={option.title}>
+            <ListItem button href={option.link} key={option.title}>
               <ListItemIcon style={{ color: '#166ef8' }}>{option.icon}</ListItemIcon>
               <ListItemText disableTypography primary={<Typography style={{ color: '#166ef8', fontWeight:700 }}>{option.title}</Typography>} />
             </ListItem>

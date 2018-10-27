@@ -4,14 +4,13 @@
     min-height: 100vh;
     flex-direction: column;
     font-family: Roboto;
-    position: relative;
     background: #fcfcfc;
 }
 
 .content {
     flex: 1;
-    margin-right: 70px;
-    margin-left: 48px;
+    /*margin-right: 70px;*/
+    margin-left: 304px;
     height: 100%;
 }
 

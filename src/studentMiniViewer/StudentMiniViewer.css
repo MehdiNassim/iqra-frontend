@@ -1,0 +1,37 @@
+.student-row-odd{
+    height: 56px;
+    width: 724px;
+    display: flex;
+    background-color: #f9f9f9;
+    align-items:center;
+}
+
+.student-row-even{
+    height: 56px;
+    width: 724px;
+    display: flex;
+    align-items: center;
+}
+
+.student-full-name, .student-grade, .student-birthday {
+    flex: 1 1 auto;
+    text-align: center;
+    font-size: 16px;
+}
+
+.student-grade{
+    max-width: 146px;
+}
+.student-birthday{
+    max-width: 200px;
+}
+
+.student-full-name{
+    text-align: left;
+    margin-left: 40px;
+}
+
+.text-student {
+    font-size: 16px;
+    line-height: 19px;
+}

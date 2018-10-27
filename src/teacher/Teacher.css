@@ -1,5 +1,7 @@
-.teacherBg {
-    padding: 100px;
+.teacherBg{
+    margin-left: 16px;
+    margin-top: 16px;
+    display: flex;
 }
 .teacherText {
     font-family: Roboto;
@@ -9,4 +11,51 @@
 }
 .teacherLogo {
     width: 8%;
+}
+
+.search-container {
+    height: 56px;
+    width: 400px;
+    overflow: hidden;
+    flex: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.search-filter{
+    margin-bottom: 56px;
+}
+.start-button{
+    margin-left: 48px;
+}
+
+.inputs-container{
+    height: 56px;
+    width: 530px;
+    border-radius: 3px;
+    background-color: #e8eaee;
+    display: flex;
+    align-items: center;
+}
+.new-student-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.input-full-name{
+    width: 100%;
+}
+
+.input-date{
+    margin-right: 10px;
+}
+
+.chart-container {
+    margin-left: 42px;
+    width: 35%;
+    height: 100%;
+}
+.students {
 }
